@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B666091906DB7100FF2205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B666081906DB7100FF2205 /* Foundation.framework */; };
+		48B6660B1906DB7100FF2205 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B6660A1906DB7100FF2205 /* CoreGraphics.framework */; };
+		48B6660D1906DB7100FF2205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B6660C1906DB7100FF2205 /* UIKit.framework */; };
+		48B666131906DB7100FF2205 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48B666111906DB7100FF2205 /* InfoPlist.strings */; };
+		48B666151906DB7100FF2205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B666141906DB7100FF2205 /* main.m */; };
+		48B666191906DB7100FF2205 /* ExperimentaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B666181906DB7100FF2205 /* ExperimentaAppDelegate.m */; };
+		48B6661C1906DB7100FF2205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B6661A1906DB7100FF2205 /* Main.storyboard */; };
+		48B6661F1906DB7100FF2205 /* ExperimentaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6661E1906DB7100FF2205 /* ExperimentaViewController.m */; };
+		48B666211906DB7100FF2205 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B666201906DB7100FF2205 /* Images.xcassets */; };
+		48B666281906DB7100FF2205 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B666271906DB7100FF2205 /* XCTest.framework */; };
+		48B666291906DB7100FF2205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B666081906DB7100FF2205 /* Foundation.framework */; };
+		48B6662A1906DB7100FF2205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B6660C1906DB7100FF2205 /* UIKit.framework */; };
+		48B666321906DB7100FF2205 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48B666301906DB7100FF2205 /* InfoPlist.strings */; };
+		48B666341906DB7100FF2205 /* PhysicsExperimentaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B666331906DB7100FF2205 /* PhysicsExperimentaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48B6662B1906DB7100FF2205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B665FD1906DB7100FF2205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B666041906DB7100FF2205;
+			remoteInfo = PhysicsExperimenta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B666051906DB7100FF2205 /* PhysicsExperimenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsExperimenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B666081906DB7100FF2205 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48B6660A1906DB7100FF2205 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48B6660C1906DB7100FF2205 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48B666101906DB7100FF2205 /* PhysicsExperimenta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsExperimenta-Info.plist"; sourceTree = "<group>"; };
+		48B666121906DB7100FF2205 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48B666141906DB7100FF2205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48B666161906DB7100FF2205 /* PhysicsExperimenta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhysicsExperimenta-Prefix.pch"; sourceTree = "<group>"; };
+		48B666171906DB7100FF2205 /* ExperimentaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExperimentaAppDelegate.h; sourceTree = "<group>"; };
+		48B666181906DB7100FF2205 /* ExperimentaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExperimentaAppDelegate.m; sourceTree = "<group>"; };
+		48B6661B1906DB7100FF2205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48B6661D1906DB7100FF2205 /* ExperimentaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExperimentaViewController.h; sourceTree = "<group>"; };
+		48B6661E1906DB7100FF2205 /* ExperimentaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExperimentaViewController.m; sourceTree = "<group>"; };
+		48B666201906DB7100FF2205 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48B666261906DB7100FF2205 /* PhysicsExperimentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsExperimentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B666271906DB7100FF2205 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		48B6662F1906DB7100FF2205 /* PhysicsExperimentaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsExperimentaTests-Info.plist"; sourceTree = "<group>"; };
+		48B666311906DB7100FF2205 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48B666331906DB7100FF2205 /* PhysicsExperimentaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsExperimentaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B666021906DB7100FF2205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6660B1906DB7100FF2205 /* CoreGraphics.framework in Frameworks */,
+				48B6660D1906DB7100FF2205 /* UIKit.framework in Frameworks */,
+				48B666091906DB7100FF2205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B666231906DB7100FF2205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B666281906DB7100FF2205 /* XCTest.framework in Frameworks */,
+				48B6662A1906DB7100FF2205 /* UIKit.framework in Frameworks */,
+				48B666291906DB7100FF2205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B665FC1906DB7100FF2205 = {
+			isa = PBXGroup;
+			children = (
+				48B6660E1906DB7100FF2205 /* PhysicsExperimenta */,
+				48B6662D1906DB7100FF2205 /* PhysicsExperimentaTests */,
+				48B666071906DB7100FF2205 /* Frameworks */,
+				48B666061906DB7100FF2205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B666061906DB7100FF2205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B666051906DB7100FF2205 /* PhysicsExperimenta.app */,
+				48B666261906DB7100FF2205 /* PhysicsExperimentaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B666071906DB7100FF2205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B666081906DB7100FF2205 /* Foundation.framework */,
+				48B6660A1906DB7100FF2205 /* CoreGraphics.framework */,
+				48B6660C1906DB7100FF2205 /* UIKit.framework */,
+				48B666271906DB7100FF2205 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B6660E1906DB7100FF2205 /* PhysicsExperimenta */ = {
+			isa = PBXGroup;
+			children = (
+				48B666171906DB7100FF2205 /* ExperimentaAppDelegate.h */,
+				48B666181906DB7100FF2205 /* ExperimentaAppDelegate.m */,
+				48B6661A1906DB7100FF2205 /* Main.storyboard */,
+				48B6661D1906DB7100FF2205 /* ExperimentaViewController.h */,
+				48B6661E1906DB7100FF2205 /* ExperimentaViewController.m */,
+				48B666201906DB7100FF2205 /* Images.xcassets */,
+				48B6660F1906DB7100FF2205 /* Supporting Files */,
+			);
+			path = PhysicsExperimenta;
+			sourceTree = "<group>";
+		};
+		48B6660F1906DB7100FF2205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48B666101906DB7100FF2205 /* PhysicsExperimenta-Info.plist */,
+				48B666111906DB7100FF2205 /* InfoPlist.strings */,
+				48B666141906DB7100FF2205 /* main.m */,
+				48B666161906DB7100FF2205 /* PhysicsExperimenta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B6662D1906DB7100FF2205 /* PhysicsExperimentaTests */ = {
+			isa = PBXGroup;
+			children = (
+				48B666331906DB7100FF2205 /* PhysicsExperimentaTests.m */,
+				48B6662E1906DB7100FF2205 /* Supporting Files */,
+			);
+			path = PhysicsExperimentaTests;
+			sourceTree = "<group>";
+		};
+		48B6662E1906DB7100FF2205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48B6662F1906DB7100FF2205 /* PhysicsExperimentaTests-Info.plist */,
+				48B666301906DB7100FF2205 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B666041906DB7100FF2205 /* PhysicsExperimenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B666371906DB7100FF2205 /* Build configuration list for PBXNativeTarget "PhysicsExperimenta" */;
+			buildPhases = (
+				48B666011906DB7100FF2205 /* Sources */,
+				48B666021906DB7100FF2205 /* Frameworks */,
+				48B666031906DB7100FF2205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicsExperimenta;
+			productName = PhysicsExperimenta;
+			productReference = 48B666051906DB7100FF2205 /* PhysicsExperimenta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B666251906DB7100FF2205 /* PhysicsExperimentaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B6663A1906DB7100FF2205 /* Build configuration list for PBXNativeTarget "PhysicsExperimentaTests" */;
+			buildPhases = (
+				48B666221906DB7100FF2205 /* Sources */,
+				48B666231906DB7100FF2205 /* Frameworks */,
+				48B666241906DB7100FF2205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B6662C1906DB7100FF2205 /* PBXTargetDependency */,
+			);
+			name = PhysicsExperimentaTests;
+			productName = PhysicsExperimentaTests;
+			productReference = 48B666261906DB7100FF2205 /* PhysicsExperimentaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B665FD1906DB7100FF2205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Experimenta;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nagarro;
+				TargetAttributes = {
+					48B666251906DB7100FF2205 = {
+						TestTargetID = 48B666041906DB7100FF2205;
+					};
+				};
+			};
+			buildConfigurationList = 48B666001906DB7100FF2205 /* Build configuration list for PBXProject "PhysicsExperimenta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B665FC1906DB7100FF2205;
+			productRefGroup = 48B666061906DB7100FF2205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B666041906DB7100FF2205 /* PhysicsExperimenta */,
+				48B666251906DB7100FF2205 /* PhysicsExperimentaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B666031906DB7100FF2205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B666211906DB7100FF2205 /* Images.xcassets in Resources */,
+				48B666131906DB7100FF2205 /* InfoPlist.strings in Resources */,
+				48B6661C1906DB7100FF2205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B666241906DB7100FF2205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B666321906DB7100FF2205 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B666011906DB7100FF2205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B666151906DB7100FF2205 /* main.m in Sources */,
+				48B6661F1906DB7100FF2205 /* ExperimentaViewController.m in Sources */,
+				48B666191906DB7100FF2205 /* ExperimentaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B666221906DB7100FF2205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B666341906DB7100FF2205 /* PhysicsExperimentaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48B6662C1906DB7100FF2205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B666041906DB7100FF2205 /* PhysicsExperimenta */;
+			targetProxy = 48B6662B1906DB7100FF2205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48B666111906DB7100FF2205 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B666121906DB7100FF2205 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48B6661A1906DB7100FF2205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B6661B1906DB7100FF2205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48B666301906DB7100FF2205 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B666311906DB7100FF2205 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48B666351906DB7100FF2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48B666361906DB7100FF2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B666381906DB7100FF2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsExperimenta/PhysicsExperimenta-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsExperimenta/PhysicsExperimenta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48B666391906DB7100FF2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsExperimenta/PhysicsExperimenta-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsExperimenta/PhysicsExperimenta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48B6663B1906DB7100FF2205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhysicsExperimenta.app/PhysicsExperimenta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsExperimenta/PhysicsExperimenta-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhysicsExperimentaTests/PhysicsExperimentaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		48B6663C1906DB7100FF2205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhysicsExperimenta.app/PhysicsExperimenta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsExperimenta/PhysicsExperimenta-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsExperimentaTests/PhysicsExperimentaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B666001906DB7100FF2205 /* Build configuration list for PBXProject "PhysicsExperimenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B666351906DB7100FF2205 /* Debug */,
+				48B666361906DB7100FF2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B666371906DB7100FF2205 /* Build configuration list for PBXNativeTarget "PhysicsExperimenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B666381906DB7100FF2205 /* Debug */,
+				48B666391906DB7100FF2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48B6663A1906DB7100FF2205 /* Build configuration list for PBXNativeTarget "PhysicsExperimentaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B6663B1906DB7100FF2205 /* Debug */,
+				48B6663C1906DB7100FF2205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48B665FD1906DB7100FF2205 /* Project object */;
+}
